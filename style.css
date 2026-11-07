@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+}
+
+
+#heading{
+    height: 900px;
+    background-color:rgb(241, 231, 232);
+}
+.mother{
+    margin: 0 auto;
+    width: 1600px;
+    height: 900px;
+   display: flex;
+   justify-content: space-between;
+   
+   
+}
+.head-child-1 .h1{
+    margin-top: 200px;
+     width: 640px;   
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(44, 42, 42);
+}
+
+.head-child-1 .p-1{
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    width: 590px;
+    font-size: 20px;
+    color: rgb(148, 140, 140);
+    
+}
+
+.head-child-1 .btn{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(204, 80, 121);
+    color: white;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: rgb(200, 182, 209);
+}
+   
+.head-child-2 {
+    height: 900px;
+}
+
+.head-child-2, .img-1{
+    
+    margin-top: 50px;
+    height: 94.2%;
+    width: 600px;
+}
+
+/* main section styles */
+
+
+/* fratures------------- */
+
+.feature-child{
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 1600px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.feature-child .h-1{
+    font-size:50px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(63, 59, 59);
+}
+.feature-child .p-1{
+    margin-top: 30px;
+    width: 1600px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(163, 157, 157);
+}
+.images{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 50px;
+     margin-top: 50px; 
+     margin-bottom: 20px;    
+}
+.images-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+ 
+img{
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;   
+}
+.img-2{
+    margin-left: 50px;
+    width: 350px;
+    height: 350px;
+}
+
+.flower1{
+    background-color:rgb(241, 231, 232);
+    width: 450px;
+    height:500px;
+   border-radius: 250px 250px 0px 0px ;
+
+  
+}
+.flower2{
+    background-color: rgb(190, 223, 235);
+    width: 450px;
+    height: 500px;
+    border-radius: 250px 250px 0px 0px ;
+
+}
+.flower3{
+     background-color: rgb(216, 226, 197);
+    width: 450px;
+    height: 500px;
+    border-radius: 250px 250px 0px 0px ;
+
+}
+a{
+    width: 200px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+}
+.links{
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 150px;
+    
+}
+
+/* delyvery section style--------------- */
+
+.delevery{
+    margin: 0 auto;
+    margin-bottom: 200px;
+    width: 1450px;
+    height: 300px;
+    background-color:whitesmoke;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+      
+}
+.delevery  img{
+    height:80px ;
+    width: 100px;
+
+}
+.delevery .p-{
+  margin-top: 20px;
+  margin-bottom: 80px;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(119, 109, 109);
+}
+
+
+.section-2{
+     height: 600px;
+    background-color:rgb(241, 231, 232);
+    margin-bottom: 150px;
+}
+
+.deals{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.description {
+    width: 600px;
+}
+.description .h1{
+    font-size:45px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(37, 36, 36);
+}
+.tiny{
+    color:rgb(204, 80, 121) ;
+}
+.description .p-1{
+    
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+   
+    font-size: 15px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(119, 109, 109);
+  
+   
+
+}
+
+.description  button{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(204, 80, 121);
+    color: white;
+    font-size: 18px;
+
+}
+
+/* section3 styles------- */
+
+
+.card{
+    width: 1450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+.card .h-1{
+    font-size:45px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(37, 36, 36);
+    margin-bottom: 20px;
+    
+}
+
+
+.card .p-1{
+    width: 1450px;
+    margin: 0 auto;
+    text-align: center;
+     margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 15px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(119, 109, 109);
+
+}
+
+
+.cards{
+    margin-bottom: 150px;
+    width: 1450px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cards img{
+    width: 340px;
+}
+
+
+/* section-4 style ------------- */
+
+
+
+
+.input-sec{
+    margin: 0 auto;
+    margin-bottom: 150px;
+    width: 1450px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.input-sec .h-1{
+    font-size:45px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(37, 36, 36);
+    margin-bottom: 20px;
+}
+
+
+.input-sec .p-1{
+    margin-bottom: 40px;
+    font-size: 18px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(119, 109, 109);
+}
+
+.input{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.input .input-1{
+    height: 70px;
+    width: 700px;
+    border: none;
+    font-size: 20px;
+    border-radius:5px ;
+    padding-left: 20px;
+
+}
+ .input-2{
+    width: 150px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(204, 80, 121);
+    color: white;
+    font-size: 18px;
+ }
+
+ /* footer section style---------- */
+
+
+ footer{
+    height: 450px;
+    background-color: rgb(26, 20, 20);
+ }
+
+ .foot{
+    width: 1450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+ }
+
+
+ .foot .h-1{
+    color:rgb(204, 80, 121) ;
+    font-size:45px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .span{
+    color: white;
+ }
+
+
+ .foot .p-1{
+     margin-bottom: 40px;
+    font-size: 18px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(194, 184, 184);
+
+ }
+ .foot .p-2{
+     margin-bottom: 40px;
+     font-size: 18px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: rgb(119, 109, 109);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* <!-- responsing lyout style------------ --> */
+
+
+ @media screen and (max-width:575px) {
+    .mother{
+        
+        flex-direction: column;
+        margin-bottom: 500px;
+    }
+    .head-child-1{
+        width: 573px;
+    }
+.head-child-1 .p-1{
+    width: 470px;
+    margin-left: 10px;
+
+}  
+.head-child-1 .h1{
+    width: 470px;
+    margin-left: 10px;
+}  
+.head-child-1 .btn{
+    margin-left: 10px;
+}
+.head-child-2>.img-1{
+    visibility: hidden;
+}
+.images-2{
+   flex-direction: column;
+}
+.feature-child{
+    width:480px;
+}
+.links{
+    flex-direction: column;
+}
+.feature-child .p-1, .h-1{
+    width: 500px;
+
+}
+.delevery{
+    width: 520px;
+}
+.deals{
+    width: 500px;
+}
+.card{
+    width: 500px;
+
+}
+.cards{
+    flex-direction: column;
+    width: 573px;
+    align-items: center;
+    
+}
+.div- .p-1{
+    width: 500px;
+    text-align: center;
+}
+.input-sec{
+    width: 573px;
+}
+.input{
+    width: 500px;
+    gap: 20px;
+}
+.foot{
+    width: 573px;
+}
+    .foot .p-1{
+        width: 530px;
+    }
+ }
